@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Atividade Avaliativa - Parte 2</title>
+        <meta http-equiv=”Content-Type” content=”text/html; charset=utf-8″>
+    </head>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+
+    <body>
+        <div class="container">
+
+            <div class="nav">
+                <h3>Atividade Firebase - Parte 2</h3>
+            </div>
+
+            <div class="content">
+
+                <div class="button-options">
+                    <input type="button" class="button button-list" id="bt_listing" value="Listagem de Clientes"/>
+                    <input type="button" class="button button-register" id="bt_register" value="Cadastro de Clientes"/>
+                </div>
+
+
+                <div class="div_register" id="div_register">
+                    
+                    <div class="title-func">
+                        <h4> Cadastro de Clientes </h4>
+                    </div>
+
+                    <div class="form">
+                        <form>
+                            <div id="div_nome" class="content-input">
+                                <label id="label_nome">Nome</label>
+                                <input type="text" class="input" id="nome" />
+                            </div>
+
+                            <div id="div_sobrenome" class="content-input">
+                                <label id="label_sobrenome">Sobrenome</label>
+                                <input type="text" class="input" id="sobrenome" />
+                            </div>
+
+                            <div id="div_idade" class="content-input">
+                                <label id="label_idade">Idade</label>
+                                <input type="text" class="input" id="idade" />
+                            </div>
+
+                            <div id="div_endereco" class="content-input">
+                                <label id="label_endereco">Endereço</label>
+                                <input type="text" class="input" id="endereco" />
+                            </div>
+
+                            <div id="div_numero" class="content-input">
+                                <label id="label_numero">Número</label>
+                                <input type="text" class="input" id="numero" />
+                            </div>
+
+                            <div class="content-button">
+                                <input type="button" class="button button-cadastrar" id="register" value="Cadastrar Cliente"/>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="div_listing" id="div_listing">
+                    <div class="table-list" id="table-list">
+                        <table class="table" id="table">
+                            <thead>
+                                <tr>
+                                    <th class="table-th">Nome</th>
+                                    <th class="table-th">Sobrenome</th>
+                                    <th class="table-th">Idade</th>
+                                    <th class="table-th">Endereço</th>
+                                    <th class="table-th">Número</th>
+                                </tr>
+                            </thead>
+                            <tbody id="table-body">
+
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+
+                <div class="div_edit" id="div_edit">
+                    
+                        <div class="title-func">
+                            <h4> Editar Cliente </h4>
+                        </div>
+    
+                        <div class="form">
+                            <form>
+                                <div id="edit_nome" class="content-input">
+                                    <label id="label_nome">Nome</label>
+                                    
+                                </div>
+    
+                                <div id="edit_sobrenome" class="content-input">
+                                    <label id="label_sobrenome">Sobrenome</label>
+                                </div>
+    
+                                <div id="edit_idade" class="content-input">
+                                    <label id="label_idade">Idade</label>
+                                </div>
+    
+                                <div id="edit_endereco" class="content-input">
+                                    <label id="label_endereco">Endereço</label>
+                                </div>
+    
+                                <div id="edit_numero" class="content-input">
+                                    <label id="label_numero">Número</label>
+                                </div>
+    
+                                <div class="content-button">
+                                    <input type="button" class="button button-edit" id="edit" value="Atualizar"/>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+            </div>
+        </div>   
+    
+
+      
+
+        
+
+        <script src="firebase.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>

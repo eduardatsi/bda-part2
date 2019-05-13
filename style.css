@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    font-family:  'Lucida Grande', sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    background:#191970;
+    width: 100%;
+    height: 100px;
+    color:#FBEC5D;
+}
+
+.nav h3 {
+    padding: 40px;
+}
+
+.button-options {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    flex-direction: row;
+    vertical-align: middle;
+    justify-content: center;
+}
+.div_register {
+    flex-direction: column;
+    align-items: center;
+}
+.div_edit {
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color:white;
+}
+.content-retorno {
+    color:#fff;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.content-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    color: #111111;
+}
+.title-func {
+    color: #111111;
+}
+.content-button {
+    display: flex;
+    flex-direction: column;
+}
+.input {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.button {
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 20px;
+    color:#fff;
+    font-weight: bold;
+}
+.button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+.button-register {
+    background-color: #D2691E;  
+}
+.button-cadastrar {
+    background-color: #2E8B57;
+}
+.button-list {
+    background-color: #008080;
+
+}
+.button-delete {
+    background-color: #800000;
+}
+.button-edit {
+    background-color: #F28500;
+}
+.titulo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:#191970;
+    font-family: 'Lucida Grande', sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.table-th, .table-td {
+    padding: 30px;
+}
+ tr {
+     
+    border-bottom: solid 1px #A9A9A9
+ }
